@@ -1,0 +1,18 @@
+{
+  "objective": "reg:squarederror",
+  "eval_metric": "rmse",
+  "target_transform": "log1p",
+  "tree_method": "hist",
+  "device": "cuda",
+  "learning_rate": 0.03,
+  "n_estimators": 5000,
+  "early_stopping_rounds": 200,
+  "max_depth": 8,
+  "min_child_weight": 20,
+  "subsample": 0.85,
+  "colsample_bytree": 0.85,
+  "reg_alpha": 0.1,
+  "reg_lambda": 1.0,
+  "max_bin": 256,
+  "random_state": 42
+}
