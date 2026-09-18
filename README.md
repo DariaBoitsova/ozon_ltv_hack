@@ -116,4 +116,3 @@ python pipelines/analyze_diversity.py `
 
 Дополнительные материалы: [архитектура](docs/architecture.md),
 [результаты экспериментов](docs/experiment_results.md) и
-[готовые пункты для резюме](docs/resume_bullets.md).
